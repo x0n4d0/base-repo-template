@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  linux:
+    build: .
+    image: manjaro_linux
+    tty: true
+    container_name: manjaro_linux
+    volumes:
+      - .:/home
